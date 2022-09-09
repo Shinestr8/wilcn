@@ -13,6 +13,7 @@ body{
     -moz-animation: AnimationName 55s ease infinite;
     animation: AnimationName 55s ease infinite;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -20,7 +21,13 @@ body{
 #name{
     font-size: 1000%;
     font-family: 'Quicksand', sans-serif;
+    margin: auto;
 }
+
+#soontm{
+    padding-bottom: 1rem;
+}
+
 
 @-webkit-keyframes AnimationName {
     0%{background-position:27% 0%}
