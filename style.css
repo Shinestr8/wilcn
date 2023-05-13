@@ -5,6 +5,10 @@ body{
     margin: 0;
 }
 
+#map {
+    height: 100%;
+}
+
 #root {
     background: linear-gradient(344deg, #ffaaff, #dddaaa, #ff0000, #00ff00, #0000ff);
     background-size: 1000% 1000%;
